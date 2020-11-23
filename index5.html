@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let arr1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+        let arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+        let star = prompt('Nhap ten ngoi sao tim kiem: ');
+        for (let i = 0; i < arr1.length; i++) {
+            if (star == arr1[i]) {
+                alert(arr2[i]);
+                break;
+            } else{
+                alert('Khong co ngoi sao nay');
+                break;
+            }
+        }
+
+</script>
+
+</body>
+</html>
